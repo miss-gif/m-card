@@ -3,7 +3,14 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react({
+      jsxImportSource: '@emotion/react',
+      babel: {
+        plugins: ['@emotion/babel-plugin'],
+      },
+    }),
+  ],
   resolve: {
     alias: [
       { find: '@', replacement: '/src' },
@@ -23,7 +30,7 @@ export default defineConfig({
       { find: '@services', replacement: '/src/services' },
       { find: '@api', replacement: '/src/api' },
       { find: '@types', replacement: '/src/types' },
-      { find: '@public', replacement: '/public' }
-    ]
-  }
+      { find: '@public', replacement: '/public' },
+    ],
+  },
 })
