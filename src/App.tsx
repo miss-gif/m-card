@@ -1,14 +1,9 @@
-import { css } from '@emotion/react'
-
-const aa = css`
-  color: red;
-`
+import Text from './components/shared/Text'
 
 const App = () => {
   return (
     <div>
-      <div>325232</div>
-      <div css={aa}>325232</div>
+      <Text>111</Text>
     </div>
   )
 }
