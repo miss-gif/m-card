@@ -1,13 +1,16 @@
+import { Global } from '@emotion/react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 import App from './App.tsx'
-import { Global } from '@emotion/react'
+import { AlertContextProvider } from './contexts/AlertContext.tsx'
+import './index.css'
 import globalStyles from './styles/globalStyles.ts'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Global styles={globalStyles} />
-    <App />
+    <AlertContextProvider>
+      <App />
+    </AlertContextProvider>
   </StrictMode>,
 )
