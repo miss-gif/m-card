@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@emotion/react", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:11.13.3"],\
           ["@emotion/styled", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:11.13.0"],\
           ["@eslint/js", "npm:9.13.0"],\
+          ["@tanstack/react-query", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:5.59.16"],\
           ["@types/react", "npm:18.3.12"],\
           ["@types/react-dom", "npm:18.3.1"],\
           ["@typescript-eslint/eslint-plugin", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:8.12.2"],\
@@ -2388,6 +2389,38 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@rollup-rollup-win32-x64-msvc-npm-4.24.3-7a36666962/node_modules/@rollup/rollup-win32-x64-msvc/",\
         "packageDependencies": [\
           ["@rollup/rollup-win32-x64-msvc", "npm:4.24.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tanstack/query-core", [\
+      ["npm:5.59.16", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@tanstack-query-core-npm-5.59.16-038eb67125-10c0.zip/node_modules/@tanstack/query-core/",\
+        "packageDependencies": [\
+          ["@tanstack/query-core", "npm:5.59.16"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tanstack/react-query", [\
+      ["npm:5.59.16", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@tanstack-react-query-npm-5.59.16-39b7f2f1cf-10c0.zip/node_modules/@tanstack/react-query/",\
+        "packageDependencies": [\
+          ["@tanstack/react-query", "npm:5.59.16"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:5.59.16", {\
+        "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-virtual-47020b576c/3/AppData/Local/Yarn/Berry/cache/@tanstack-react-query-npm-5.59.16-39b7f2f1cf-10c0.zip/node_modules/@tanstack/react-query/",\
+        "packageDependencies": [\
+          ["@tanstack/react-query", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:5.59.16"],\
+          ["@tanstack/query-core", "npm:5.59.16"],\
+          ["@types/react", "npm:18.3.12"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5521,6 +5554,7 @@ const RAW_RUNTIME_STATE =
           ["@emotion/react", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:11.13.3"],\
           ["@emotion/styled", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:11.13.0"],\
           ["@eslint/js", "npm:9.13.0"],\
+          ["@tanstack/react-query", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:5.59.16"],\
           ["@types/react", "npm:18.3.12"],\
           ["@types/react-dom", "npm:18.3.1"],\
           ["@typescript-eslint/eslint-plugin", "virtual:4d3d6a63d8ed6799bb265c42b6b87e0b12e59fee77b5cfc0897c12d19561031eb1fcc7f7c1fdc1396dc9f95d7d0b67b288ab7928e56778db18f1aa55c8e9d900#npm:8.12.2"],\
